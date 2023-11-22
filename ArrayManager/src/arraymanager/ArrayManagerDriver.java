@@ -75,7 +75,7 @@ public class ArrayManagerDriver {
                     System.out.println(am.size());
                     break;
                 case 2:
-                    am.printArray();
+                    am.printItems();
                     break;
                 case 3:
                     addItem();
