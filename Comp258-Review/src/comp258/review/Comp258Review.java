@@ -26,7 +26,7 @@ public class Comp258Review {
         accounts[0] = new ChequingAccount(250, 1000, 1001, 2500, customers[0]);
         accounts[1] = new ChequingAccount(300, 1500, 1002, 3500, customers[1]);
         accounts[2] = new SavingsAccount(250, 2001, 250, customers[1]);
-        accounts[3] = new SavingsAccount(250, 2002, 2500, customers[21]);
+        accounts[3] = new SavingsAccount(250, 2002, 2500, customers[2]);
         
         Scanner input = new Scanner(System.in);
         int customerId = 0;
