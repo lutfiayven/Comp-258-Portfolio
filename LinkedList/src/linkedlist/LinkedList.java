@@ -93,6 +93,26 @@ public class LinkedList {
             }
         }
     }
+    
+    public void deleteCurrent(){
+        // are there any states the list might be in that will change these steps?
+        // what if the list is empty
+        // what if the list only has one ityem in it?
+        // are there any others?
+        
+        // if our list only has one item in it
+        if (current == items) {
+            items = null;
+            current = null;
+        }else {
+            // find the item before current
+            ListNode temp = items;
+            while(temp.next != current) {
+                temp = temp.next;                
+            }
+            // change its next to point at the item after current
+        }
+    }
 
     public static void main(String[] args) {
         LinkedList ll = new LinkedList();
